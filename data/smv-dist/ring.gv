@@ -1,0 +1,126 @@
+digraph "DD" {
+size = "7.5,10"
+center = true;
+edge [dir = none];
+{ node [shape = plaintext];
+  edge [style = invis];
+  "CONST NODES" [style = invis];
+" _process_selector_.1 " -> " _process_selector_.0 " -> " gate1.output " -> " next(gate1.output) " -> " gate2.output " -> " next(gate2.output) " -> " gate3.output " -> " next(gate3.output) " -> "CONST NODES"; 
+}
+{ rank = same; node [shape = box]; edge [style = invis];
+"  Trans  "; }
+{ rank = same; " _process_selector_.1 ";
+"10a";
+}
+{ rank = same; " _process_selector_.0 ";
+"109";
+"105";
+}
+{ rank = same; " gate1.output ";
+"f5";
+"104";
+"108";
+}
+{ rank = same; " next(gate1.output) ";
+"107";
+"f4";
+"f1";
+"fe";
+"103";
+"106";
+"102";
+}
+{ rank = same; " gate2.output ";
+"f0";
+"dd";
+"fd";
+"101";
+}
+{ rank = same; " next(gate2.output) ";
+"ef";
+"d9";
+"fb";
+"eb";
+"dc";
+"fc";
+"100";
+"ff";
+}
+{ rank = same; " gate3.output ";
+"fa";
+"33";
+"d8";
+}
+{ rank = same; " next(gate3.output) ";
+"20";
+"32";
+}
+{ rank = same; "CONST NODES";
+{ node [shape = box]; "5" [label = "TRUE"];
+"6" [label = "FALSE"];
+}
+}
+"  Trans  " -> "10a" [style = solid];
+"10a" -> "105";
+"10a" -> "109" [style = dashed];
+"109" -> "108";
+"109" -> "f5" [style = dashed];
+"105" -> "fe";
+"105" -> "104" [style = dashed];
+"f5" -> "f1";
+"f5" -> "f4" [style = dashed];
+"104" -> "102";
+"104" -> "103" [style = dashed];
+"108" -> "106";
+"108" -> "107" [style = dashed];
+"107" -> "6";
+"107" -> "eb" [style = dashed];
+"f4" -> "6";
+"f4" -> "f0" [style = dashed];
+"f1" -> "f0";
+"f1" -> "6" [style = dashed];
+"fe" -> "fd";
+"fe" -> "dd" [style = dashed];
+"103" -> "6";
+"103" -> "101" [style = dashed];
+"106" -> "ef";
+"106" -> "6" [style = dashed];
+"102" -> "101";
+"102" -> "6" [style = dashed];
+"f0" -> "eb";
+"f0" -> "ef" [style = dashed];
+"dd" -> "d9";
+"dd" -> "dc" [style = dashed];
+"fd" -> "fb";
+"fd" -> "fc" [style = dashed];
+"101" -> "ff";
+"101" -> "100" [style = dashed];
+"ef" -> "6";
+"ef" -> "33" [style = dashed];
+"d9" -> "d8";
+"d9" -> "6" [style = dashed];
+"fb" -> "fa";
+"fb" -> "6" [style = dashed];
+"eb" -> "33";
+"eb" -> "6" [style = dashed];
+"dc" -> "6";
+"dc" -> "d8" [style = dashed];
+"fc" -> "6";
+"fc" -> "fa" [style = dashed];
+"100" -> "6";
+"100" -> "20" [style = dashed];
+"ff" -> "32";
+"ff" -> "6" [style = dashed];
+"fa" -> "6";
+"fa" -> "32" [style = dashed];
+"33" -> "20";
+"33" -> "32" [style = dashed];
+"d8" -> "20";
+"d8" -> "6" [style = dashed];
+"20" -> "5";
+"20" -> "6" [style = dashed];
+"32" -> "6";
+"32" -> "5" [style = dashed];
+"5" [label = "TRUE"];
+"6" [label = "FALSE"];
+}
