@@ -1,0 +1,127 @@
+digraph "DD" {
+size = "7.5,10"
+center = true;
+edge [dir = none];
+{ node [shape = plaintext];
+  edge [style = invis];
+  "CONST NODES" [style = invis];
+" state1.1 " -> " next(state1.1) " -> " state1.0 " -> " next(state1.0) " -> " state2.1 " -> " next(state2.1) " -> " state2.0 " -> " next(state2.0) " -> " turn.0 " -> " next(turn.0) " -> "CONST NODES"; 
+}
+{ rank = same; node [shape = box]; edge [style = invis];
+"  Trans  "; }
+{ rank = same; " state1.1 ";
+"15e";
+}
+{ rank = same; " next(state1.1) ";
+"157";
+"15d";
+}
+{ rank = same; " state1.0 ";
+"15c";
+"15a";
+}
+{ rank = same; " next(state1.0) ";
+"15b";
+"156";
+}
+{ rank = same; " state2.1 ";
+"159";
+"150";
+"155";
+"147";
+}
+{ rank = same; " next(state2.1) ";
+"14f";
+"152";
+"154";
+"14e";
+"146";
+"158";
+"142";
+}
+{ rank = same; " state2.0 ";
+"153";
+"143";
+"145";
+}
+{ rank = same; " next(state2.0) ";
+"35";
+"12c";
+"144";
+}
+{ rank = same; " turn.0 ";
+"12b";
+"151";
+"55";
+}
+{ rank = same; " next(turn.0) ";
+"54";
+"30";
+}
+{ rank = same; "CONST NODES";
+{ node [shape = box]; "5" [label = "TRUE"];
+"6" [label = "FALSE"];
+}
+}
+"  Trans  " -> "15e" [style = solid];
+"15e" -> "157";
+"15e" -> "15d" [style = dashed];
+"157" -> "150";
+"157" -> "156" [style = dashed];
+"15d" -> "15a";
+"15d" -> "15c" [style = dashed];
+"15c" -> "15b";
+"15c" -> "6" [style = dashed];
+"15a" -> "6";
+"15a" -> "159" [style = dashed];
+"15b" -> "6";
+"15b" -> "147" [style = dashed];
+"156" -> "155";
+"156" -> "6" [style = dashed];
+"159" -> "158";
+"159" -> "146" [style = dashed];
+"150" -> "14e";
+"150" -> "14f" [style = dashed];
+"155" -> "152";
+"155" -> "154" [style = dashed];
+"147" -> "142";
+"147" -> "146" [style = dashed];
+"14f" -> "6";
+"14f" -> "145" [style = dashed];
+"152" -> "151";
+"152" -> "6" [style = dashed];
+"154" -> "153";
+"154" -> "6" [style = dashed];
+"14e" -> "6";
+"14e" -> "12c" [style = dashed];
+"146" -> "143";
+"146" -> "145" [style = dashed];
+"158" -> "6";
+"158" -> "35" [style = dashed];
+"142" -> "55";
+"142" -> "6" [style = dashed];
+"153" -> "6";
+"153" -> "54" [style = dashed];
+"143" -> "6";
+"143" -> "55" [style = dashed];
+"145" -> "144";
+"145" -> "6" [style = dashed];
+"35" -> "30";
+"35" -> "6" [style = dashed];
+"12c" -> "12b";
+"12c" -> "6" [style = dashed];
+"144" -> "6";
+"144" -> "55" [style = dashed];
+"12b" -> "30";
+"12b" -> "6" [style = dashed];
+"151" -> "6";
+"151" -> "54" [style = dashed];
+"55" -> "30";
+"55" -> "54" [style = dashed];
+"54" -> "6";
+"54" -> "5" [style = dashed];
+"30" -> "5";
+"30" -> "6" [style = dashed];
+"5" [label = "TRUE"];
+"6" [label = "FALSE"];
+}

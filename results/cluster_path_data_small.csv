@@ -1,0 +1,162 @@
+file,data_small/smv-dist/bmc_tutorial.gv
+Number of edges,33
+Number of nodes,19
+Average clustering,0.01374269005847953
+Betweenness centrality max. value,0.11959228135698724
+Betweenness centrality avg. value,0.0498796009631923
+Closeness centrality max. value,0.6422222222222222
+Closeness centrality avg. value,0.15215354743005385
+Degree centrality max. value,0.5555555555555556
+Degree centrality avg. value,0.19298245614035087
+Characteristic path length,7.954545454545454
+Characteristic path length for output false,8.933333333333334
+Characteristic path length for output true,7.448275862068965
+Number of paths from root to output true,134
+Number of paths from root to output false,216
+Number of paths from root to any output,350
+Longest path from root to true,9
+Longest path from root to false,9
+file,data_small/smv-dist/counter.gv
+Number of edges,25
+Number of nodes,15
+Average clustering,0.0
+Betweenness centrality max. value,0.10714285714285715
+Betweenness centrality avg. value,0.04908424908424908
+Closeness centrality max. value,0.6035714285714286
+Closeness centrality avg. value,0.17527347393807022
+Degree centrality max. value,0.5
+Degree centrality avg. value,0.23809523809523808
+Characteristic path length,6.2727272727272725
+Characteristic path length for output false,7.0
+Characteristic path length for output true,5.857142857142857
+Number of paths from root to output true,56
+Number of paths from root to output false,82
+Number of paths from root to any output,138
+Longest path from root to true,7
+Longest path from root to false,7
+file,data_small/smv-dist/mutex.gv
+Number of edges,59
+Number of nodes,32
+Average clustering,0.10619517543859651
+Betweenness centrality max. value,0.03422939068100358
+Betweenness centrality avg. value,0.01683467741935484
+Closeness centrality max. value,0.6751687921980496
+Closeness centrality avg. value,0.09583802100168803
+Degree centrality max. value,0.6451612903225806
+Degree centrality avg. value,0.11895161290322574
+Characteristic path length,8.036363636363637
+Characteristic path length for output false,9.25
+Characteristic path length for output true,7.538461538461538
+Number of paths from root to output true,148
+Number of paths from root to output false,294
+Number of paths from root to any output,442
+Longest path from root to true,11
+Longest path from root to false,11
+file,data_small/smv-dist/mutex1.gv
+Number of edges,109
+Number of nodes,57
+Average clustering,0.0507464898806155
+Betweenness centrality max. value,0.03162337662337662
+Betweenness centrality avg. value,0.008623832308042832
+Closeness centrality max. value,0.6355042016806722
+Closeness centrality avg. value,0.0646352526155922
+Degree centrality max. value,0.5535714285714285
+Degree centrality avg. value,0.06829573934837088
+Characteristic path length,10.169491525423728
+Characteristic path length for output false,11.083333333333334
+Characteristic path length for output true,9.7008547008547
+Number of paths from root to output true,665
+Number of paths from root to output false,1135
+Number of paths from root to any output,1800
+Longest path from root to true,13
+Longest path from root to false,13
+file,data_small/smv-dist/ring.gv
+Number of edges,61
+Number of nodes,33
+Average clustering,0.06765696177460884
+Betweenness centrality max. value,0.03494623655913978
+Betweenness centrality avg. value,0.01389907135874878
+Closeness centrality max. value,0.5775240384615384
+Closeness centrality avg. value,0.0895179020623565
+Degree centrality max. value,0.5625
+Degree centrality avg. value,0.11553030303030302
+Characteristic path length,7.59375
+Characteristic path length for output false,8.4
+Characteristic path length for output true,7.2272727272727275
+Number of paths from root to output true,168
+Number of paths from root to output false,318
+Number of paths from root to any output,486
+Longest path from root to true,9
+Longest path from root to false,9
+file,data_small/smv-dist/semaphore.gv
+Number of edges,135
+Number of nodes,70
+Average clustering,0.07445163431226146
+Betweenness centrality max. value,0.030264279624893437
+Betweenness centrality avg. value,0.007222019242479603
+Closeness centrality max. value,0.6382332643202209
+Closeness centrality avg. value,0.049107491904585916
+Degree centrality max. value,0.6086956521739131
+Degree centrality avg. value,0.055900621118012445
+Characteristic path length,11.08125
+Characteristic path length for output false,12.333333333333334
+Characteristic path length for output true,10.544642857142858
+Number of paths from root to output true,1184
+Number of paths from root to output false,2362
+Number of paths from root to any output,3546
+Longest path from root to true,13
+Longest path from root to false,13
+file,data_small/smv-dist/short.gv
+Number of edges,7
+Number of nodes,6
+Average clustering,0.16666666666666666
+Betweenness centrality max. value,0.2
+Betweenness centrality avg. value,0.09166666666666667
+Closeness centrality max. value,0.6400000000000001
+Closeness centrality avg. value,0.2877777777777778
+Degree centrality max. value,0.6000000000000001
+Degree centrality avg. value,0.46666666666666673
+Characteristic path length,3.25
+Characteristic path length for output false,3.0
+Characteristic path length for output true,4.0
+Number of paths from root to output true,9
+Number of paths from root to output false,4
+Number of paths from root to any output,13
+Longest path from root to true,4
+Longest path from root to false,4
+file,data_small/smv-dist/syncarb10.gv
+Number of edges,605
+Number of nodes,305
+Average clustering,0.030604045672061025
+Betweenness centrality max. value,0.04168476058132129
+Betweenness centrality avg. value,0.010807085885465155
+Closeness centrality max. value,0.6832653608001905
+Closeness centrality avg. value,0.022225366324232977
+Degree centrality max. value,0.6217105263157895
+Degree centrality avg. value,0.013050043140638415
+Characteristic path length,43.886937603109075
+Characteristic path length for output false,45.457142857142856
+Characteristic path length for output true,43.46255770824478
+Number of paths from root to output true,621484375
+Number of paths from root to output false,2198593728
+Number of paths from root to any output,2820078103
+Longest path from root to true,51
+Longest path from root to false,51
+file,data_small/smv-dist/syncarb5.gv
+Number of edges,285
+Number of nodes,145
+Average clustering,0.04139868268113136
+Betweenness centrality max. value,0.03986985236985236
+Betweenness centrality avg. value,0.011308710446641475
+Closeness centrality max. value,0.6698440775681342
+Closeness centrality avg. value,0.039382813537460135
+Degree centrality max. value,0.6180555555555555
+Degree centrality avg. value,0.027298850574712687
+Characteristic path length,21.898107148070654
+Characteristic path length for output false,23.457142857142856
+Characteristic path length for output true,21.47644658753709
+Number of paths from root to output true,102625
+Number of paths from root to output false,347403
+Number of paths from root to any output,450028
+Longest path from root to true,26
+Longest path from root to false,26

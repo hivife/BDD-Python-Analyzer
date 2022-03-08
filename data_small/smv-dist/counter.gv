@@ -1,0 +1,68 @@
+digraph "DD" {
+size = "7.5,10"
+center = true;
+edge [dir = none];
+{ node [shape = plaintext];
+  edge [style = invis];
+  "CONST NODES" [style = invis];
+" bit0.value " -> " next(bit0.value) " -> " bit1.value " -> " next(bit1.value) " -> " bit2.value " -> " next(bit2.value) " -> "CONST NODES"; 
+}
+{ rank = same; node [shape = box]; edge [style = invis];
+"  Trans  "; }
+{ rank = same; " bit0.value ";
+"78";
+}
+{ rank = same; " next(bit0.value) ";
+"71";
+"77";
+}
+{ rank = same; " bit1.value ";
+"70";
+"76";
+}
+{ rank = same; " next(bit1.value) ";
+"6a";
+"75";
+"6f";
+}
+{ rank = same; " bit2.value ";
+"25";
+"24";
+}
+{ rank = same; " next(bit2.value) ";
+"17";
+"23";
+}
+{ rank = same; "CONST NODES";
+{ node [shape = box]; "5" [label = "TRUE"];
+"6" [label = "FALSE"];
+}
+}
+"  Trans  " -> "78" [style = solid];
+"78" -> "77";
+"78" -> "71" [style = dashed];
+"71" -> "70";
+"71" -> "6" [style = dashed];
+"77" -> "6";
+"77" -> "76" [style = dashed];
+"70" -> "6a";
+"70" -> "6f" [style = dashed];
+"76" -> "75";
+"76" -> "6a" [style = dashed];
+"6a" -> "25";
+"6a" -> "6" [style = dashed];
+"75" -> "6";
+"75" -> "24" [style = dashed];
+"6f" -> "6";
+"6f" -> "25" [style = dashed];
+"25" -> "17";
+"25" -> "23" [style = dashed];
+"24" -> "23";
+"24" -> "17" [style = dashed];
+"17" -> "5";
+"17" -> "6" [style = dashed];
+"23" -> "6";
+"23" -> "5" [style = dashed];
+"5" [label = "TRUE"];
+"6" [label = "FALSE"];
+}

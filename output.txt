@@ -1,8 +1,0 @@
-bmc_tutorial.gv
-('Number of edges:', 33)
-('Number of nodes:', 19)
-('root:', 'Trans')
-('Output node false:', '"6"')
-('Output node true:', '"5"')
-('Average clustering:', 0.02748538011695906)
-('Maximal Cliques:', 31)

@@ -1,0 +1,280 @@
+file,data/brp/brp.gv
+Number of edges,5727
+Number of nodes,2866
+Average clustering,0.04751898531413412
+Betweenness centrality max. value,0.005955959449502695
+Betweenness centrality avg. value,0.00029871620144525813
+Closeness centrality max. value,0.7576079251230855
+Closeness centrality avg. value,0.0018130811264990515
+Degree centrality max. value,0.6949389179755672
+Degree centrality avg. value,0.001394942693357333
+file,data/guidance/guidance.gv
+Number of edges,17563
+Number of nodes,8784
+Average clustering,0.02796745035228173
+Betweenness centrality max. value,0.02118519626618403
+Betweenness centrality avg. value,0.001082772353306884
+Closeness centrality max. value,0.6483792449129671
+Closeness centrality avg. value,0.0040913590041034295
+Degree centrality max. value,0.5827166116361152
+Degree centrality avg. value,0.00045529563548734556
+file,data/m4/modcounter.m4.gv
+Number of edges,1281
+Number of nodes,643
+Average clustering,0.07190605236579778
+Betweenness centrality max. value,0.03849531153773618
+Betweenness centrality avg. value,0.004879111168574586
+Closeness centrality max. value,0.72072247481126
+Closeness centrality avg. value,0.011439022362437505
+Degree centrality max. value,0.6277258566978193
+Degree centrality avg. value,0.006206305140913572
+file,data/m4/non_selective.m4.gv
+Number of edges,605
+Number of nodes,305
+Average clustering,0.030604045672061025
+Betweenness centrality max. value,0.04168476058132129
+Betweenness centrality avg. value,0.010807085885465155
+Closeness centrality max. value,0.6832653608001905
+Closeness centrality avg. value,0.022225366324232977
+Degree centrality max. value,0.6217105263157895
+Degree centrality avg. value,0.013050043140638415
+file,data/msi/msi_wtrans.gv
+Number of edges,61159
+Number of nodes,30582
+Average clustering,0.06171296927495979
+Betweenness centrality max. value,0.00031058123735393993
+Betweenness centrality avg. value,8.452723701029083e-06
+Closeness centrality max. value,0.5635020092267726
+Closeness centrality avg. value,0.000792863870870164
+Degree centrality max. value,0.44288937575618853
+Degree centrality avg. value,0.00013078947746209904
+file,data/p-queue/p-queue-gv
+Number of edges,15123
+Number of nodes,7564
+Average clustering,0.05271474168089581
+Betweenness centrality max. value,0.0013008947533131115
+Betweenness centrality avg. value,4.448235794966912e-05
+Closeness centrality max. value,0.6793961840437293
+Closeness centrality avg. value,0.0012080431379642305
+Degree centrality max. value,0.6164220547401825
+Degree centrality avg. value,0.0005287158466449692
+file,data/prod-cons/prod-cons.gv
+Number of edges,6651
+Number of nodes,3328
+Average clustering,0.03207727636927683
+Betweenness centrality max. value,0.003342464782910834
+Betweenness centrality avg. value,0.00022858651665452794
+Closeness centrality max. value,0.5018110927514466
+Closeness centrality avg. value,0.003827902119028665
+Degree centrality max. value,0.401863540727382
+Degree centrality avg. value,0.0012013811819380652
+file,data/production-cell/production-cell.gv
+Number of edges,9265
+Number of nodes,4635
+Average clustering,0.08977437031198575
+Betweenness centrality max. value,0.030695399557732636
+Betweenness centrality avg. value,0.001327660665100748
+Closeness centrality max. value,0.6746286361486001
+Closeness centrality avg. value,0.007355787103443198
+Degree centrality max. value,0.5979715148899439
+Degree centrality avg. value,0.000862719573305354
+file,data/reactor/base.gv
+Number of edges,19059
+Number of nodes,9532
+Average clustering,0.035306515187371226
+Betweenness centrality max. value,0.001482498761703539
+Betweenness centrality avg. value,8.859098359288686e-05
+Closeness centrality max. value,0.7189527768915637
+Closeness centrality avg. value,0.0007686338373340087
+Degree centrality max. value,0.6383380547686497
+Degree centrality avg. value,0.0004195730670679948
+file,data/reactor/idle.gv
+Number of edges,19179
+Number of nodes,9592
+Average clustering,0.03511346633385035
+Betweenness centrality max. value,0.0014673340893862415
+Betweenness centrality avg. value,9.460898924949848e-05
+Closeness centrality max. value,0.7187617198309283
+Closeness centrality avg. value,0.0007716158944026858
+Degree centrality max. value,0.6379939526639558
+Degree centrality avg. value,0.000416948958873339
+file,data/smv-dist/bmc_tutorial.gv
+Number of edges,33
+Number of nodes,19
+Average clustering,0.01374269005847953
+Betweenness centrality max. value,0.11959228135698724
+Betweenness centrality avg. value,0.0498796009631923
+Closeness centrality max. value,0.6422222222222222
+Closeness centrality avg. value,0.15215354743005385
+Degree centrality max. value,0.5555555555555556
+Degree centrality avg. value,0.19298245614035087
+file,data/smv-dist/counter.gv
+Number of edges,25
+Number of nodes,15
+Average clustering,0.0
+Betweenness centrality max. value,0.10714285714285715
+Betweenness centrality avg. value,0.04908424908424908
+Closeness centrality max. value,0.6035714285714286
+Closeness centrality avg. value,0.17527347393807022
+Degree centrality max. value,0.5
+Degree centrality avg. value,0.23809523809523808
+file,data/smv-dist/dme1-16.gv
+Number of edges,156727
+Number of nodes,78366
+Average clustering,0.0442819135643545
+Betweenness centrality max. value,0.006282217318802209
+Betweenness centrality avg. value,0.00015921661315417422
+Closeness centrality max. value,0.5836703685619645
+Closeness centrality avg. value,0.0007034241177620237
+Degree centrality max. value,0.4679384929496586
+Degree centrality avg. value,5.104156694502992e-05
+file,data/smv-dist/dme1.gv
+Number of edges,23355
+Number of nodes,11680
+Average clustering,0.044005326217382394
+Betweenness centrality max. value,0.014945773717350175
+Betweenness centrality avg. value,0.0003793435463777938
+Closeness centrality max. value,0.5784988895528248
+Closeness centrality avg. value,0.004391480244251154
+Degree centrality max. value,0.4620258583782858
+Degree centrality avg. value,0.000342421768611714
+file,data/smv-dist/dme2-16.gv
+Number of edges,48431
+Number of nodes,24218
+Average clustering,0.03567019287711622
+Betweenness centrality max. value,0.005909759090611125
+Betweenness centrality avg. value,0.00026122602624496414
+Closeness centrality max. value,0.6414059820754193
+Closeness centrality avg. value,0.00033069707033773604
+Degree centrality max. value,0.5538258248337944
+Degree centrality avg. value,0.00016515617475271633
+file,data/smv-dist/dme2.gv
+Number of edges,10047
+Number of nodes,5026
+Average clustering,0.04645394285734179
+Betweenness centrality max. value,0.0034382056005232186
+Betweenness centrality avg. value,0.00026598546259580053
+Closeness centrality max. value,0.597549393172136
+Closeness centrality avg. value,0.0025541364461400466
+Degree centrality max. value,0.49671641791044774
+Degree centrality avg. value,0.0007956239494925491
+file,data/smv-dist/gigamax.gv
+Number of edges,2489
+Number of nodes,1247
+Average clustering,0.023752446278852164
+Betweenness centrality max. value,0.0076849008935583815
+Betweenness centrality avg. value,0.00048666077564023437
+Closeness centrality max. value,0.6263850969628492
+Closeness centrality avg. value,0.006894744517675045
+Degree centrality max. value,0.5248796147672552
+Degree centrality avg. value,0.003203836881066691
+file,data/smv-dist/mutex.gv
+Number of edges,59
+Number of nodes,32
+Average clustering,0.10619517543859651
+Betweenness centrality max. value,0.03422939068100358
+Betweenness centrality avg. value,0.01683467741935484
+Closeness centrality max. value,0.6751687921980496
+Closeness centrality avg. value,0.09583802100168803
+Degree centrality max. value,0.6451612903225806
+Degree centrality avg. value,0.11895161290322574
+file,data/smv-dist/mutex1.gv
+Number of edges,109
+Number of nodes,57
+Average clustering,0.0507464898806155
+Betweenness centrality max. value,0.03162337662337662
+Betweenness centrality avg. value,0.008623832308042832
+Closeness centrality max. value,0.6355042016806722
+Closeness centrality avg. value,0.0646352526155922
+Degree centrality max. value,0.5535714285714285
+Degree centrality avg. value,0.06829573934837088
+file,data/smv-dist/pci3p.gv
+Number of edges,9121
+Number of nodes,4563
+Average clustering,0.08901441697421862
+Betweenness centrality max. value,0.09689362542838416
+Betweenness centrality avg. value,0.0008122903644473757
+Closeness centrality max. value,0.7283181950490504
+Closeness centrality avg. value,0.004387225447860832
+Degree centrality max. value,0.6562911003945638
+Degree centrality avg. value,0.0008763280270378972
+file,data/smv-dist/pci4p.gv
+Number of edges,82491
+Number of nodes,41248
+Average clustering,0.10771630997258241
+Betweenness centrality max. value,0.019814305158972235
+Betweenness centrality avg. value,3.375343762594155e-05
+Closeness centrality max. value,0.7549604631762371
+Closeness centrality avg. value,0.0006882114714147201
+Degree centrality max. value,0.7095303900889762
+Degree centrality avg. value,9.697087216057571e-05
+file,data/smv-dist/periodic.gv
+Number of edges,1281
+Number of nodes,643
+Average clustering,0.07190605236579778
+Betweenness centrality max. value,0.03849531153773618
+Betweenness centrality avg. value,0.004879111168574586
+Closeness centrality max. value,0.72072247481126
+Closeness centrality avg. value,0.011439022362437505
+Degree centrality max. value,0.6277258566978193
+Degree centrality avg. value,0.006206305140913572
+file,data/smv-dist/ring.gv
+Number of edges,61
+Number of nodes,33
+Average clustering,0.06765696177460884
+Betweenness centrality max. value,0.03494623655913978
+Betweenness centrality avg. value,0.01389907135874878
+Closeness centrality max. value,0.5775240384615384
+Closeness centrality avg. value,0.0895179020623565
+Degree centrality max. value,0.5625
+Degree centrality avg. value,0.11553030303030302
+file,data/smv-dist/robot.gv
+Number of edges,3137
+Number of nodes,1571
+Average clustering,0.06601726365626809
+Betweenness centrality max. value,0.02900842279147255
+Betweenness centrality avg. value,0.0022387367079184425
+Closeness centrality max. value,0.6892310492055715
+Closeness centrality avg. value,0.007471532813642111
+Degree centrality max. value,0.6089171974522293
+Degree centrality avg. value,0.0025437163233284644
+file,data/smv-dist/semaphore.gv
+Number of edges,135
+Number of nodes,70
+Average clustering,0.07445163431226146
+Betweenness centrality max. value,0.030264279624893437
+Betweenness centrality avg. value,0.007222019242479603
+Closeness centrality max. value,0.6382332643202209
+Closeness centrality avg. value,0.049107491904585916
+Degree centrality max. value,0.6086956521739131
+Degree centrality avg. value,0.055900621118012445
+file,data/smv-dist/short.gv
+Number of edges,7
+Number of nodes,6
+Average clustering,0.16666666666666666
+Betweenness centrality max. value,0.2
+Betweenness centrality avg. value,0.09166666666666667
+Closeness centrality max. value,0.6400000000000001
+Closeness centrality avg. value,0.2877777777777778
+Degree centrality max. value,0.6000000000000001
+Degree centrality avg. value,0.46666666666666673
+file,data/smv-dist/syncarb10.gv
+Number of edges,605
+Number of nodes,305
+Average clustering,0.030604045672061025
+Betweenness centrality max. value,0.04168476058132129
+Betweenness centrality avg. value,0.010807085885465155
+Closeness centrality max. value,0.6832653608001905
+Closeness centrality avg. value,0.022225366324232977
+Degree centrality max. value,0.6217105263157895
+Degree centrality avg. value,0.013050043140638415
+file,data/smv-dist/syncarb5.gv
+Number of edges,285
+Number of nodes,145
+Average clustering,0.04139868268113136
+Betweenness centrality max. value,0.03986985236985236
+Betweenness centrality avg. value,0.011308710446641475
+Closeness centrality max. value,0.6698440775681342
+Closeness centrality avg. value,0.039382813537460135
+Degree centrality max. value,0.6180555555555555
+Degree centrality avg. value,0.027298850574712687

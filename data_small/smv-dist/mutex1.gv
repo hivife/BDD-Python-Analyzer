@@ -1,0 +1,206 @@
+digraph "DD" {
+size = "7.5,10"
+center = true;
+edge [dir = none];
+{ node [shape = plaintext];
+  edge [style = invis];
+  "CONST NODES" [style = invis];
+" _process_selector_.1 " -> " _process_selector_.0 " -> " s0.1 " -> " next(s0.1) " -> " s0.0 " -> " next(s0.0) " -> " s1.1 " -> " next(s1.1) " -> " s1.0 " -> " next(s1.0) " -> " turn " -> " next(turn) " -> "CONST NODES"; 
+}
+{ rank = same; node [shape = box]; edge [style = invis];
+"  Trans  "; }
+{ rank = same; " _process_selector_.1 ";
+"271";
+}
+{ rank = same; " _process_selector_.0 ";
+"263";
+}
+{ rank = same; " s0.1 ";
+"270";
+"262";
+"25a";
+}
+{ rank = same; " next(s0.1) ";
+"26e";
+"261";
+"259";
+"26f";
+"240";
+"25b";
+}
+{ rank = same; " s0.0 ";
+"253";
+"228";
+"25d";
+"258";
+}
+{ rank = same; " next(s0.0) ";
+"252";
+"21f";
+"227";
+"23f";
+"25c";
+}
+{ rank = same; " s1.1 ";
+"250";
+"245";
+"26d";
+"234";
+"21e";
+"226";
+"23e";
+}
+{ rank = same; " next(s1.1) ";
+"23d";
+"225";
+"248";
+"244";
+"21d";
+"23b";
+"24f";
+"233";
+"219";
+"22f";
+"26c";
+}
+{ rank = same; " s1.0 ";
+"23c";
+"24b";
+"21c";
+"241";
+"230";
+"21a";
+}
+{ rank = same; " next(s1.0) ";
+"39";
+"24a";
+"220";
+"21b";
+"20e";
+}
+{ rank = same; " turn ";
+"20d";
+"23a";
+"5b";
+}
+{ rank = same; " next(turn) ";
+"5a";
+"34";
+}
+{ rank = same; "CONST NODES";
+{ node [shape = box]; "5" [label = "TRUE"];
+"6" [label = "FALSE"];
+}
+}
+"  Trans  " -> "271" [style = solid];
+"271" -> "270";
+"271" -> "263" [style = dashed];
+"263" -> "25a";
+"263" -> "262" [style = dashed];
+"270" -> "26e";
+"270" -> "26f" [style = dashed];
+"262" -> "25b";
+"262" -> "261" [style = dashed];
+"25a" -> "240";
+"25a" -> "259" [style = dashed];
+"26e" -> "26d";
+"26e" -> "6" [style = dashed];
+"261" -> "6";
+"261" -> "25d" [style = dashed];
+"259" -> "258";
+"259" -> "253" [style = dashed];
+"26f" -> "6";
+"26f" -> "228" [style = dashed];
+"240" -> "234";
+"240" -> "23f" [style = dashed];
+"25b" -> "245";
+"25b" -> "6" [style = dashed];
+"253" -> "250";
+"253" -> "252" [style = dashed];
+"228" -> "21f";
+"228" -> "227" [style = dashed];
+"25d" -> "25c";
+"25d" -> "252" [style = dashed];
+"258" -> "6";
+"258" -> "245" [style = dashed];
+"252" -> "6";
+"252" -> "245" [style = dashed];
+"21f" -> "21e";
+"21f" -> "6" [style = dashed];
+"227" -> "6";
+"227" -> "226" [style = dashed];
+"23f" -> "23e";
+"23f" -> "6" [style = dashed];
+"25c" -> "245";
+"25c" -> "6" [style = dashed];
+"250" -> "248";
+"250" -> "24f" [style = dashed];
+"245" -> "219";
+"245" -> "244" [style = dashed];
+"26d" -> "26c";
+"26d" -> "21d" [style = dashed];
+"234" -> "22f";
+"234" -> "233" [style = dashed];
+"21e" -> "219";
+"21e" -> "21d" [style = dashed];
+"226" -> "225";
+"226" -> "21d" [style = dashed];
+"23e" -> "23b";
+"23e" -> "23d" [style = dashed];
+"23d" -> "6";
+"23d" -> "23c" [style = dashed];
+"225" -> "6";
+"225" -> "220" [style = dashed];
+"248" -> "34";
+"248" -> "6" [style = dashed];
+"244" -> "6";
+"244" -> "241" [style = dashed];
+"21d" -> "21a";
+"21d" -> "21c" [style = dashed];
+"23b" -> "23a";
+"23b" -> "6" [style = dashed];
+"24f" -> "6";
+"24f" -> "24b" [style = dashed];
+"233" -> "6";
+"233" -> "230" [style = dashed];
+"219" -> "5b";
+"219" -> "6" [style = dashed];
+"22f" -> "20d";
+"22f" -> "6" [style = dashed];
+"26c" -> "23a";
+"26c" -> "20e" [style = dashed];
+"23c" -> "6";
+"23c" -> "21b" [style = dashed];
+"24b" -> "39";
+"24b" -> "24a" [style = dashed];
+"21c" -> "5a";
+"21c" -> "21b" [style = dashed];
+"241" -> "220";
+"241" -> "21b" [style = dashed];
+"230" -> "220";
+"230" -> "6" [style = dashed];
+"21a" -> "6";
+"21a" -> "5b" [style = dashed];
+"39" -> "34";
+"39" -> "6" [style = dashed];
+"24a" -> "6";
+"24a" -> "34" [style = dashed];
+"220" -> "5b";
+"220" -> "6" [style = dashed];
+"21b" -> "6";
+"21b" -> "5b" [style = dashed];
+"20e" -> "20d";
+"20e" -> "6" [style = dashed];
+"20d" -> "34";
+"20d" -> "6" [style = dashed];
+"23a" -> "6";
+"23a" -> "5a" [style = dashed];
+"5b" -> "34";
+"5b" -> "5a" [style = dashed];
+"5a" -> "6";
+"5a" -> "5" [style = dashed];
+"34" -> "5";
+"34" -> "6" [style = dashed];
+"5" [label = "TRUE"];
+"6" [label = "FALSE"];
+}
