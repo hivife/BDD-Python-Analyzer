@@ -1,0 +1,196 @@
+file,example source codes/brp/brp.smv
+Number of lines of codes,396
+Number of Modules,22
+Number of processes,0
+Number of transitions,19
+Number of variables,55
+Number of reachable states,22432Number of states,2.17433e+012 (2^40.9837)
+file,example source codes/guidance/guidance.smv
+Number of lines of codes,991
+Number of Modules,3
+Number of processes,0
+Number of transitions,0
+Number of variables,76
+Number of states,2.63684e+027 (2^91.0909)Number of reachable states,2.10443e+014 (2^47.5804)
+file,example source codes/m4/modcounter.m4.smv
+Number of lines of codes,7
+Number of Modules,1
+Number of processes,0
+Number of transitions,0
+Number of variables,1
+Number of states,0Number of reachable states,0
+file,example source codes/m4/non_selective.m4.smv
+Number of lines of codes,225
+Number of Modules,3
+Number of processes,0
+Number of transitions,0
+Number of variables,10
+Number of states,0Number of reachable states,0
+file,example source codes/msi/msi_wtrans.smv
+Number of lines of codes,273
+Number of Modules,5
+Number of processes,0
+Number of transitions,0
+Number of variables,15
+Number of states,7.45794e+012 (2^42.7619)Number of reachable states,3.65528e+007 (2^25.1235)
+file,example source codes/p-queue/p-queue.smv
+Number of lines of codes,164
+Number of Modules,4
+Number of processes,0
+Number of transitions,0
+Number of variables,15
+Number of states,2.69377e+010 (2^34.6489)Number of reachable states,4144 (2^12.0168)
+file,example source codes/prod-cons/prod-cons.smv
+Number of lines of codes,186
+Number of Modules,4
+Number of processes,0
+Number of transitions,0
+Number of variables,14
+Number of states,6.29146e+007 (2^25.9069)Number of reachable states,105572 (2^16.6879)
+file,example source codes/production-cell/production-cell.smv
+Number of lines of codes,568
+Number of Modules,10
+Number of processes,0
+Number of transitions,0
+Number of variables,15
+Number of states,4.27973e+014 (2^48.6045)Number of reachable states,81 (2^6.33985)
+file,example source codes/reactor/base.smv
+Number of lines of codes,988
+Number of Modules,12
+Number of processes,0
+Number of transitions,0
+Number of variables,0
+Number of states,4.98062e+021 (2^72.0768)Number of reachable states,398 (2^8.63662)
+file,example source codes/reactor/idle.smv
+Number of lines of codes,1008
+Number of Modules,12
+Number of processes,0
+Number of transitions,0
+Number of variables,0
+Number of states,9.96124e+021 (2^73.0768)Number of reachable states,25378 (2^14.6313)
+file,example source codes/smv-dist/bmc_tutorial.smv
+Number of lines of codes,15
+Number of Modules,1
+Number of processes,0
+Number of transitions,0
+Number of variables,1
+Number of states,0Number of reachable states,0
+file,example source codes/smv-dist/counter.smv
+Number of lines of codes,16
+Number of Modules,2
+Number of processes,0
+Number of transitions,0
+Number of variables,4
+Number of states,16Number of reachable states,8
+file,example source codes/smv-dist/dme1-16.smv
+Number of lines of codes,231
+Number of Modules,8
+Number of processes,0
+Number of transitions,0
+Number of variables,40
+Number of states,4.97323e+086 (2^288)Number of reachable states,4.47462e+016 (2^55.3126)
+file,example source codes/smv-dist/dme1.smv
+Number of lines of codes,85
+Number of Modules,8
+Number of processes,0
+Number of transitions,0
+Number of variables,27
+Number of states,1.80144e+016 (2^54)Number of reachable states,6579
+file,example source codes/smv-dist/dme2-16.smv
+Number of lines of codes,232
+Number of Modules,8
+Number of processes,0
+Number of transitions,0
+Number of variables,40
+Number of states,4.97323e+086 (2^288)Number of reachable states,4.47462e+016 (2^55.3126)re
+file,example source codes/smv-dist/dme2.smv
+Number of lines of codes,87
+Number of Modules,8
+Number of processes,0
+Number of transitions,0
+Number of variables,27
+Number of states,1.80144e+016 (2^54)Number of reachable states,6579 (2^12.6837)
+file,example source codes/smv-dist/gigamax.smv
+Number of lines of codes,180
+Number of Modules,5
+Number of processes,0
+Number of transitions,0
+Number of variables,7
+Number of states,1.76319e+011 (2^37.3594)Number of reachable states,8872 (2^13.115)
+file,example source codes/smv-dist/mutex.smv
+Number of lines of codes,76
+Number of Modules,1
+Number of processes,0
+Number of transitions,0
+Number of variables,0
+Number of states,18Number of reachable states,6
+file,example source codes/smv-dist/mutex1.smv
+Number of lines of codes,72
+Number of Modules,2
+Number of processes,0
+Number of transitions,0
+Number of variables,0
+Number of states,18Number of reachable states,16
+file,example source codes/smv-dist/pci3p.smv
+Number of lines of codes,380
+Number of Modules,6
+Number of processes,0
+Number of transitions,0
+Number of variables,18
+Number of states,8.21896e+012 (2^42.9021)Number of reachable states,436224 (2^18.7347)
+file,example source codes/smv-dist/pci4p.smv
+Number of lines of codes,365
+Number of Modules,6
+Number of processes,0
+Number of transitions,0
+Number of variables,18
+Number of states,1.21193e+018 (2^60.072)Number of reachable states,1.29267e+006 (2^20.3019)
+file,example source codes/smv-dist/periodic.smv
+Number of lines of codes,270
+Number of Modules,10
+Number of processes,0
+Number of transitions,0
+Number of variables,10
+Number of states,4.27594e+009 (2^31.9936)Number of reachable states,1000 (2^9.96578)
+file,example source codes/smv-dist/ring.smv
+Number of lines of codes,16
+Number of Modules,2
+Number of processes,0
+Number of transitions,0
+Number of variables,4
+Number of states,8Number of reachable states,7
+file,example source codes/smv-dist/robot.smv
+Number of lines of codes,258
+Number of Modules,6
+Number of processes,0
+Number of transitions,0
+Number of variables,11
+Number of states,1.3853e+012 (2^40.3333)Number of reachable states,2400 (2^11.2288)
+file,example source codes/smv-dist/semaphore.smv
+Number of lines of codes,31
+Number of Modules,2
+Number of processes,0
+Number of transitions,0
+Number of variables,4
+Number of states,32Number of reachable states,12
+file,example source codes/smv-dist/short.smv
+Number of lines of codes,12
+Number of Modules,1
+Number of processes,0
+Number of transitions,0
+Number of variables,2
+Number of states,4Number of reachable states,4
+file,example source codes/smv-dist/syncarb10.smv
+Number of lines of codes,103
+Number of Modules,2
+Number of processes,0
+Number of transitions,0
+Number of variables,13
+Number of states,1.07374e+009 (2^30)Number of reachable states,1.04858e+007 (2^23.3219)
+file,example source codes/smv-dist/syncarb5.smv
+Number of lines of codes,58
+Number of Modules,2
+Number of processes,0
+Number of transitions,0
+Number of variables,8
+Number of states,32768 (2^15)Number of reachable states,5120 (2^12.3219)
