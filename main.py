@@ -136,36 +136,59 @@ def analyze_bdd(bdd):
 
 	#paths
 	print("processing path information")
-	all_paths_false = nx.all_simple_edge_paths(bdd, bdd.root_node, bdd.output_node_false)
+# 	all_paths_false = nx.all_simple_edge_paths(bdd, bdd.root_node, bdd.output_node_false)
+# 	false_counter = 0
+# 	sum_false = 0
+# 	longest_path_false = 0
+# 	for path in all_paths_false:
+#  			path_length = len(path)
+#  			sum_false += path_length
+#  			false_counter += 1
+#  			if(longest_path_false < path_length): longest_path_false = path_length
+ 			
+# 	all_paths_true = nx.all_simple_edge_paths(bdd, bdd.root_node , bdd.output_node_true)
+# 	true_counter = 0
+# 	sum_true = 0
+# 	longest_path_true = 0
+# 	for path in all_paths_true:
+#  			path_length = len(path)
+#  			sum_true += path_length
+#  			true_counter += 1
+#  			if(longest_path_true < path_length): longest_path_true = path_length
+ 			
+# 	characteristic_path_length = (sum_false + sum_true) / (true_counter + false_counter)
+# 	characteristic_path_length_false = sum_true / true_counter
+# 	characteristic_path_length_true = sum_false  /  false_counter
+	tf= {bdd.output_node_false,bdd.output_node_true}
+	visited=set()
+	all_paths = return_all_path_length(bdd,visited, "Trans", [], tf, 0)
+	true_counter = 0
+	sum_true = 0
 	false_counter = 0
 	sum_false = 0
 	longest_path_false = 0
-	for path in all_paths_false:
- 			path_length = len(path)
- 			sum_false += path_length
- 			false_counter += 1
- 			if(longest_path_false < path_length): longest_path_false = path_length
- 			
-	all_paths_true = nx.all_simple_edge_paths(bdd, bdd.root_node , bdd.output_node_true)
-	true_counter = 0
-	sum_true = 0
 	longest_path_true = 0
-	for path in all_paths_true:
- 			path_length = len(path)
- 			sum_true += path_length
- 			true_counter += 1
- 			if(longest_path_true < path_length): longest_path_true = path_length
- 			
+
+	for value in all_paths:
+		if value[1]== bdd.output_node_true:
+			sum_true+=value[0]
+			true_counter+=1
+			if(longest_path_true < value[0]): longest_path_true = value[0]
+		else:
+			sum_false+=value[0]
+			false_counter+=1
+			if(longest_path_false < value[0]): longest_path_false = value[0]
+	
 	characteristic_path_length = (sum_false + sum_true) / (true_counter + false_counter)
 	characteristic_path_length_false = sum_true / true_counter
 	characteristic_path_length_true = sum_false  /  false_counter
- 	
+	
 	result.append(("Characteristic path length",characteristic_path_length))	
 	result.append(("Characteristic path length for output false",characteristic_path_length_false))
 	result.append(("Characteristic path length for output true",characteristic_path_length_true))
-	result.append(("Number of paths from root to output true",sum_true))	
-	result.append(("Number of paths from root to output false",sum_false))	
-	result.append(("Number of paths from root to any output",sum_true + sum_false))	
+	result.append(("Number of paths from root to output true",true_counter))	
+	result.append(("Number of paths from root to output false",false_counter))	
+	result.append(("Number of paths from root to any output",true_counter + false_counter))	
 	result.append(("Longest path from root to true",longest_path_true))	
 	result.append(("Longest path from root to false",longest_path_false))	
  	 	
@@ -191,10 +214,28 @@ def centrality_helper_function(input_list):
 	
 	return (max_value,avg_value)
 
+def return_all_path_length(bdd,visited,node,path_length,tf,depth):
+	
+	if node not in visited :
+	        #print ("Node: " + node + " Depth: " + str(depth))
+	        if node in tf:
+	        	path_length.append((depth,node))
+	        if node not in tf:
+	        	visited.add(node)
+	        depth+=1
+	        for neighbour in bdd.edges(node):
+	            
+	            return_all_path_length(bdd,visited, neighbour[1],path_length,tf,depth)
+
+	        return path_length
+	
+
+
+
 
 #main
 
-input_folder = "data_small/"
+input_folder = "data/"
 output_file = "output.csv"
 #path = "bmc_tutorial.gv
 #path = "data/brp/brp.gv"
@@ -212,8 +253,13 @@ for folder in os.listdir(input_folder):
 		result_list = analyze_bdd(current_bdd)
 		print_results(result_list,output_file,path) 
 		print("completed:" + input_folder + folder + "/" + file)
+		pass
 	
-
-
+# visited = list()
+# tf = {"5","6"}
+#bdd= read_gv_file("data/smv-dist/periodic.gv")
+# print(bdd.edges)
+# print(return_all_path_length(bdd, "Trans", visited,tf,0))
+#print(analyze_bdd(bdd))
 
 #print(list(current_bdd.edges))
